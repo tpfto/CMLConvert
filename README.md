@@ -24,5 +24,7 @@ After installation, try it out:
     Import["http://chem-file.sourceforge.net/data/polycyclic_alkanes/abietic_acid.cml", "CML"]
 
     asp = Import["ExampleData/aspirin.mol",
-                        {"MOL", {"EdgeRules", "EdgeTypes", "FormalCharges", "MassNumbers", "VertexCoordinates", "VertexTypes"}}];
-    Export["aspirin.cml", asp, {"CML", {"EdgeRules", "EdgeTypes", "FormalCharges", "MassNumbers", "VertexCoordinates", "VertexTypes"}}]
+                 {"MOL", {"EdgeRules", "EdgeTypes", "FormalCharges",
+                          "MassNumbers", "VertexCoordinates", "VertexTypes"}}];
+    Export["aspirin.cml", asp, {"CML", {"EdgeRules", "EdgeTypes", "FormalCharges",
+                                        "MassNumbers", "VertexCoordinates", "VertexTypes"}}]
